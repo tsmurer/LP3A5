@@ -14,10 +14,10 @@ public class Contagem extends Thread{
 		for(int i = v1; i < v2+1; i++) {
 			
 		
-			System.out.println(i);
+			System.out.println("Contagem: "+ i);
 			
 			try {
-				Thread.sleep(2000);
+				Thread.sleep(500);
 			} catch (InterruptedException e) {
 				System.out.println("Erro ao usar Thread.sleep");
 			}
